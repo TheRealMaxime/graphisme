@@ -20,12 +20,13 @@ border-width: 0px;
 border-radius: 60px;
 margin-top: -1000px;
 margin-left: 70px;
+transition: all 0.3s;
 
 }
 
 img.img-1:hover{
 
-    transition: 0.3s;
+
     -webkit-transform:scale(1.05); /* Safari et Chrome */
     -moz-transform:scale(1.05); /* Firefox */
     -ms-transform:scale(1.05); /* Internet Explorer 9 */
