@@ -1,0 +1,100 @@
+/*Nav Bar*/
+
+header{
+    top: 0;
+    left: 0%;
+    right: 0;
+    padding-top: 0;
+    margin-left:-9px;
+    margin-top: -8px;
+    background-color: #3672cc;
+position: top;
+
+height: 75px;
+}                                                                           
+
+img.img-1{
+vertical-align: -15px;
+border: solid;
+border-width: 0px;
+border-radius: 60px;
+margin-top: -1000px;
+margin-left: 80px;
+
+}
+
+img.img-1:hover{
+
+    transition: 0.3s;
+    -webkit-transform:scale(1.05); /* Safari et Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* Internet Explorer 9 */
+    -o-transform:scale(1.05); /* Opera */
+    transform:scale(1.05);
+ 
+    }
+
+div.navbar{
+
+margin-block-start: 0.3em;
+margin-block-end: 0.83em;
+top: 0px;
+margin-bottom: 200px;
+
+position: absolute;
+top: 0;
+left: 0%;
+right: 0;
+}
+
+
+.gfgf-45454{
+    height: 0.7px;
+    color:rgb(37, 74, 240);
+    background-color: rgb(20, 98, 201);
+    border-color: rgb(20, 98, 201);
+
+
+   top: 0px; 
+
+}
+/* Boutons*/
+.bouton-1{
+margin-left: 1100px;
+color: rgb(3, 33, 114);
+text-decoration: none;
+}
+
+.bouton-1:hover{
+transition: 0.3s;
+    color: rgb(2, 24, 83);
+    
+    }
+
+    .bouton-2{
+        margin-left: 50px;
+        color: rgb(3, 33, 114);
+        text-decoration: none;
+        }
+        
+        .bouton-2:hover{
+        transition: 0.3s;
+            color: rgb(2, 24, 83);
+            
+            }
+
+            .bouton-3{
+                margin-left: 50px;
+                color: rgb(3, 33, 114);
+                text-decoration: none;
+                }
+                
+                .bouton-3:hover{
+                transition: 0.3s;
+                    color: rgb(2, 24, 83);
+                    
+                    }
+
+                    /*Texte*/
+                    
+    
