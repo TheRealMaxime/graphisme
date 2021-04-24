@@ -19,7 +19,7 @@ border: solid;
 border-width: 0px;
 border-radius: 60px;
 margin-top: -1000px;
-margin-left: 190px;
+margin-left: 250px;
 
 }
 
@@ -60,7 +60,7 @@ right: 0;
 }
 /* Boutons*/
 .bouton-1{
-margin-left: 800px;
+margin-left: 650px;
 color: rgb(3, 33, 114);
 text-decoration: none;
 }
