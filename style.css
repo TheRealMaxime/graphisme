@@ -61,7 +61,10 @@ right: 0;
 }
 /* Boutons*/
 .bouton-1{
-margin-left: 600px;
+    position: absolute;
+    
+
+    right: 500px;
 color: rgb(3, 33, 114);
 text-decoration: none;
 }
@@ -73,7 +76,10 @@ transition: 0.3s;
     }
 
     .bouton-2{
-        margin-left: 50px;
+        position: absolute;
+    
+
+        right: 350px;
         color: rgb(3, 33, 114);
         text-decoration: none;
         }
@@ -85,7 +91,10 @@ transition: 0.3s;
             }
 
             .bouton-3{
-                margin-left: 50px;
+                position: absolute;
+    
+
+                right: 200px;
                 color: rgb(3, 33, 114);
                 text-decoration: none;
                 }
