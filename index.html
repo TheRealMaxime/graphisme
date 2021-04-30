@@ -105,6 +105,39 @@ margin-bottom: 200px;
 
     <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <center><h2 class="Title-1"><FONT face="Corbel Light">Besoin de miniature? Faîtes appelle à nos graphistes.</FONT></h2>
             <a href="https://www.youtube.com/channel/UClNqUeQsoZxIgw_ELaNN_RA"><img src="https://cdn.discordapp.com/attachments/798216470995402762/835605192782250034/image0.jpg" class="img-2" title="Chaîne youtube de SJ SDR"></a></center>
      
@@ -112,17 +145,83 @@ margin-bottom: 200px;
 <center><h2 class="Title-1"><FONT face="Corbel Light">Une envie d'obtenir votre propre logo personnalisé </FONT></h2>
     <a href="https://discord.gg/2HAschT3Qb"> <img src="https://cdn.discordapp.com/attachments/798216470995402762/835605545393848360/image0.jpg" class="img-3"></a></center>
 
-    <center>
+    <div class="animation" data-scrollanim="righttoleft">    <center>
         <a href="https://discord.gg/2HAschT3Qb"> <img src="https://cdn.discordapp.com/attachments/798216470995402762/835613725737877554/image0.jpg" class="img-4"></a></center>
-        <center><h2 class="Title-1"><FONT face="Corbel Light">Dessinez à votre sauce ! </FONT></h2>
-            <a href="https://discord.gg/2HAschT3Qb"><img src="https://cdn.discordapp.com/attachments/798216470995402762/835618589037690930/image0.png" class="img-5"></a></center>
-    </body>
+
+    </div>
+
+
+    <div class="animation" data-scrollanim="righttoleft"> <center><h2 class="Title-1"><FONT face="Corbel Light">Dessinez à votre sauce ! </FONT></h2>
+        <a href="https://discord.gg/2HAschT3Qb"><img src="https://cdn.discordapp.com/attachments/798216470995402762/835618589037690930/image0.png" class="img-5"></a></center>
+</body>
+    </div>
 <footer>
     <div class="prdd-5145445">
         <h3><center><font size="2.5">GRAPHISME &copy; 2020-2021 | Alright reserved</center></font> </h3>
     </div>
 </footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<style>
+
+
+
+    .img-6 {
+        /*            Gestion de la durée des animations 3s = 3 secondes*/
+        transition: all 3s;
+    }
+
+    
+    .animation {
+            /*            Gestion de la durée des animations 3s = 3 secondes*/
+            transition: all 3s;
+        }
+    body{overflow-X:hidden;max-width:100%;}
+
+    /*        Left to right*/
+    [data-scrollanim~="lefttoright"] {
+        transform: translateX(-200vw);
+    }
+
+    /*        Right to left*/
+
+    [data-scrollanim~="righttoleft"] {
+        transform: translateX(100vw);
+    }
+
+    /*        Opacity*/
+    [data-scrollanim~="lefttoright_opacity"] {
+        opacity: 0;
+        transform: translateX(-2vw);
+    }
+
+</style>
+</head>
+
+<body>
+
+
+
+
+
+<script>
+    //        Au scroll :
+    window.onscroll = function() {
+        //            Quand Jquery est load
+        $(document).ready(function() {
+            //                    Pour tout les element avec un effect
+            $("[data-scrollanim]").each(function() {
+                if ($(this).offset().top < ($(window).scrollTop() + $(window).height())) {
+                    $(this).removeAttr('data-scrollanim');
+                }
+            })
+        });
+    }
+
+</script>
 <style>
 .prdd-5145445{
 
