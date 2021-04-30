@@ -170,29 +170,27 @@ margin-bottom: 200px;
 
 
     .img-6 {
-        /*            Gestion de la durée des animations 3s = 3 secondes*/
+ 
         transition: all 3s;
     }
 
     
     .animation {
-            /*            Gestion de la durée des animations 3s = 3 secondes*/
+        
             transition: all 3s;
         }
     body{overflow-X:hidden;max-width:100%;}
 
-    /*        Left to right*/
     [data-scrollanim~="lefttoright"] {
         transform: translateX(-200vw);
     }
 
-    /*        Right to left*/
+
 
     [data-scrollanim~="righttoleft"] {
         transform: translateX(100vw);
     }
 
-    /*        Opacity*/
     [data-scrollanim~="lefttoright_opacity"] {
         opacity: 0;
         transform: translateX(-2vw);
@@ -208,11 +206,11 @@ margin-bottom: 200px;
 
 
 <script>
-    //        Au scroll :
+    
     window.onscroll = function() {
-        //            Quand Jquery est load
+       
         $(document).ready(function() {
-            //                    Pour tout les element avec un effect
+      
             $("[data-scrollanim]").each(function() {
                 if ($(this).offset().top < ($(window).scrollTop() + $(window).height())) {
                     $(this).removeAttr('data-scrollanim');
