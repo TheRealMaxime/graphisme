@@ -107,4 +107,6 @@ transition: 0.3s;
 
                     /*Texte*/
                     
-    
+    .Staff-bouton{
+        margin-top: 300px;
+    }
